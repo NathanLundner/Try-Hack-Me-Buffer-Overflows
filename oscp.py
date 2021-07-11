@@ -28,5 +28,5 @@ try:
     s.send(bytes(string, "latin-1"))
     s.recv(1024)
 except:
-  print("Fuzzing crashed at {} bytes".format(len(string) - len(prefix)))
+  print("Check your netcat listener!")
   sys.exit(0)
